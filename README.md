@@ -19,22 +19,21 @@ Además, incluye un **cliente en consola** que interactúa con la API.
 ---
 
 ## Estructura del proyecto
-
-PFO2_gestorTareas/
-│
-├── servidor.py # Servidor Flask (endpoints)
-├── db.py # Funciones de base de datos
-├── cliente.py # Cliente en consola (interacción con la API)
-├── database.db # Base de datos SQLite (se crea al ejecutar)
-├──capturas/ #registro, login, tareas.
-└── README.md # Documentación
+```
+📂 PFO2_GestorTareas
+ ├── 📄 servidor.py      # Servidor Flask (endpoints)
+ ├── 📄 db.py            # Funciones de base de datos
+ ├── 📄 cliente.py       # Cliente en consola (interacción con la API)
+ ├── 📄 database.db      # Base de datos SQLite (se crea al ejecutar)
+ ├── 📄 imagenes/        # registro, login, tareas
+ └── 📄 README.md        # Documentación
+```
 
 ## Instalación y ejecución
 
 1. **Clonar el repositorio**   
-   ```
-   git clone https://github.com/usuario/PFO2_GestionTareas.git
-   cd PFO2_GestionTareas 
+   ```git clone https://github.com/usuario/PFO2_GestionTareas.git```
+   
 2. **Instalar dependencias**  
 ```pip install flask requests```
 
@@ -49,8 +48,15 @@ PFO2_gestorTareas/
 - Iniciar sesión
 - Ver tareas en http://127.0.0.1:5000/tareas
 
-6. **Pruebas exitosas**
+6. **Imagenes de pruebas exitosas**
+- Registro exitoso  
+  ![Registro](imagenes/Registro.png)
 
+- Login correcto  
+  ![Login](imagenes/Login.png)
+
+- Visualización de la página de tareas  
+  ![Tareas](imagenes/Tareas.png)
 
 ## Respuestas conceptuales
 1. ¿Por qué hashear contraseñas?
@@ -63,4 +69,5 @@ Las contraseñas nunca deben almacenarse en texto plano porque, en caso de que l
 - Es compatible con Python de forma nativa.
 
 ## GitHub Pages
-La docunmentación y capturas disponibles en 
+La documentación y capturas disponibles en 
+https://marysolh.github.io/PFO2_GestorTareas/
